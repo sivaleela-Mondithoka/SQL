@@ -1,0 +1,18 @@
+1. 	SELECT count(*) FROM payment
+	WHERE amount>5;
+
+2. 	SELECT COUNT(*) from actor
+	WHERE first_name like 'P%';
+
+3. 	SELECT COUNT(DISTINCT(district))  
+	FROM address;
+
+4.	SELECT DISTINCT(district)from address;
+
+
+5.	SELECT * from film;
+	SELECT COUNT(*) from film
+	where rating='R' AND replacement_cost BETWEEN 5 AND 15;
+
+6.	SELECT COUNT(*) FROM film
+	WHERE title LIKE '%Truman';
